@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "priority": 1,
+        "action": { "type": "redirect", "redirect": { "url": "https://mdh.cs.vt.edu/assets/vendor.css" } },
+        "condition": { "regexFilter": "https:\\/\\/mdh\\.cs\\.vt\\.edu\\/.+assets\\/vendor\\.css" } 
+    },
+    {
+        "id": 2,
+        "priority": 1,
+        "action": { "type": "redirect", "redirect": { "url": "https://mdh.cs.vt.edu/assets/coursel.css" } },
+        "condition": { "regexFilter": "https:\\/\\/mdh\\.cs\\.vt\\.edu\\/.+assets\\/coursel\\.css" } 
+    },
+    {
+        "id": 3,
+        "priority": 1,
+        "action": { "type": "redirect", "redirect": { "url": "https://mdh.cs.vt.edu/assets/vendor.js" } },
+        "condition": { "regexFilter": "https:\\/\\/mdh\\.cs\\.vt\\.edu\\/.+assets\\/vendor\\.js" } 
+    },
+    {
+        "id": 4,
+        "priority": 1,
+        "action": { "type": "redirect", "redirect": { "url": "https://mdh.cs.vt.edu/assets/coursel.js" } },
+        "condition": { "regexFilter": "https:\\/\\/mdh\\.cs\\.vt\\.edu\\/.+assets\\/coursel\\.js" } 
+    }
+
+]
