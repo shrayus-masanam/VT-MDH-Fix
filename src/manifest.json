@@ -1,7 +1,7 @@
 {
-	"name": "MDH VT CS Fix",
+	"name": "VT MDH Fix",
 	"version": "1.0.0",
-	"description": "",
+	"description": "Fixes the infinite loading screen when reloading some Virginia Tech My Digital Hand pages",
 	"declarative_net_request" : {
     	"rule_resources" : [{
             "id": "ruleset",
@@ -10,11 +10,13 @@
 		}]
 	},
 	"permissions": [
-		"declarativeNetRequest",
-		"declarativeNetRequestFeedback"
+		"declarativeNetRequest"
 	],
 	"host_permissions": [
 		"https://mdh.cs.vt.edu/*"
 	],
+	"icons": {
+		"256": "vtmdhfix.png"
+	},
 	"manifest_version": 3
 }
