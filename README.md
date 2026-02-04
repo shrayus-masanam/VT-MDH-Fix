@@ -4,7 +4,7 @@
   </sub>
   VT MDH Fix
 </h1>
-Fixes the infinite loading screen when reloading some Virginia Tech My Digital Hand pages
+Fixes the infinite loading screen when reloading some Virginia Tech My Digital Hand pages. Some style and script tags in MDH's webpages are missing a leading '/' character in their href/src attribtues, so this extension redirects URLs that are attempting to fetch those resources but aren't starting at the website root.
 <br><br>
 <img width="640" height="400" alt="loading_screen" src="https://github.com/user-attachments/assets/ac43af20-f9c9-4b9f-ab9f-e5c8fdf38d04" />
 <br><br>
